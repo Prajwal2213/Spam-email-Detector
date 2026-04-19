@@ -16,6 +16,7 @@ An advanced, production-ready Email Spam Detector built from scratch using Machi
 - **Backend / API**: `FastAPI`, `uvicorn`
 - **Frontend**: Vanilla HTML5, CSS3, JavaScript
 - **DevOps**: Docker, Docker Hub
+- **MLFlow**: MLflow Models
 
 ---
 
