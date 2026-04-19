@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Spam Detector | Premium Security</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/style.css">
+    <meta name="description" content="An advanced email spam detector powered by Machine Learning.">
+</head>
+<body>
+    <div class="background-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+    
+    <main class="container">
+        <div class="glass-panel">
+            <header class="header">
+                <div class="logo">
+                    <svg viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="shield-icon"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    <h1>SecureMail AI</h1>
+                </div>
+                <p class="subtitle">Instantly analyze your messages for malicious or spam content using our advanced ML model.</p>
+            </header>
+            
+            <form id="spam-form" class="analyze-form">
+                <div class="input-group">
+                    <label for="message-input">Message Content</label>
+                    <textarea id="message-input" placeholder="Paste your email or text message here to analyze..." required></textarea>
+                </div>
+                
+                <button type="submit" id="analyze-btn" class="btn-primary">
+                    <span class="btn-text">Analyze Message</span>
+                    <span class="loader hidden"></span>
+                </button>
+            </form>
+            
+            <div id="result-container" class="result-container hidden">
+                <div class="result-card">
+                    <div class="result-header">
+                        <h2 id="result-title">Result</h2>
+                        <span id="confidence-badge" class="badge">99%</span>
+                    </div>
+                    <p id="result-description">Description goes here.</p>
+                    <div class="confidence-bar-container">
+                        <div id="confidence-bar" class="confidence-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="static/script.js"></script>
+</body>
+</html>
