@@ -4,3 +4,5 @@ scikit-learn
 pandas
 joblib
 urllib3
+
+mlflow
